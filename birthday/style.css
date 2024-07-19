@@ -1,0 +1,246 @@
+.head
+{
+    display: flex;
+    width: 1261px;
+    background-color: rgb(121, 33, 109);
+    color: white;
+    justify-content: center;
+    height: 60px;
+    margin-left: -6PX;
+    margin-top: -10PX;
+
+}
+.pic
+{
+    margin-top: 10px;
+    height: 40px;
+    margin-left:55px ;
+    transition: transform .4s; /* Animation */
+
+}
+.happy,.ha
+{
+    margin-top: 16px;
+   
+      font-family: "Playwrite HR", cursive;
+      font-optical-sizing: auto;
+      transition: transform .4s; /* Animation */
+      margin-top: 8px;
+    }
+    
+
+.ha:hover{
+    transform: scale(1.3);
+}
+.pic:hover{
+    transform: scale(1.5);
+}
+/* first page */
+.first,.second,.third,.fourth
+{
+    display: flex;
+    background-color: rgba(195, 144, 163, 0.943);
+    width: 1261px;
+    height: 607px;
+    margin-left: -6PX;
+
+}
+.pg1_vid {
+    height: 375px;
+    margin-left: 252px;
+    margin-top: 84px;
+    border-radius: 20px;
+    
+    transition: transform .4s;
+    box-shadow: 2px 2px 10px 8px rgba(197, 122, 161, 0.578);
+
+}
+#set
+{
+    border-radius: 20px;
+}
+
+.birth
+{
+
+    margin-top: px;
+   color: aliceblue;
+   font-family: "Playwrite NO", cursive;
+   font-optical-sizing: auto;
+   font-weight: 900;
+   font-style: normal;
+   font-size: 35px;
+   transition: transform .4s;
+   margin-top: 172px;
+   margin-left: 81px;
+   animation: showup 5s infinite; 
+}
+html {
+    scroll-behavior:smooth;
+  }
+@keyframes showup
+{
+    0%{opacity: 0;}
+    10%{opacity: 0.5;}
+    20%{opacity: 0.75;}
+    20%{color: rgb(116, 23, 39);}
+
+    50%{color: rgb(133, 15, 102);}
+
+    50%{opacity: 1;}
+    50%{color: rgb(233, 11, 48);}
+    80%{opacity: 1;}
+    80%{color: rgb(215, 61, 194);}
+
+    100%{opacity: 0;}
+
+}
+.birth:hover
+{
+    transform: scale(1.1);
+    color: rgb(240, 9, 240);
+
+
+}
+.pg1_vid:hover
+{
+    transform: scale(1.1);
+    
+}
+.second,.fourth
+{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    background: rgba(168, 212, 208, 0.416);
+    height: 667px;
+    animation: moveDown 0.6s ease-in-out 0.2s backwards;
+   scroll-snap-align: start;
+   transition: transform .2s; /* Animation */
+   gap: 30px;
+
+}
+@keyframes moveDown{
+    0% { 
+        transform: translateY(-40px); 
+        opacity: 0;
+    }
+    100% { 
+        transform: translateY(0px);  
+        opacity: 1;
+    }
+}
+.first_cont
+{
+    
+    height: 515px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 68px;
+    margin-left: 75px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    box-shadow: 3px 3px 8px 2px rgba(138, 137, 137, 0.582);
+    transition: transform .4s;
+}
+.first_cont:hover{
+    transform: scale(1.1);
+}
+.pg2_vid
+{
+    height: 407px;
+    margin-left: 60px;
+    margin-top: 26px;
+    transition: transform .4s;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px 2px rgba(138, 137, 137, 0.582);
+}
+.pg2_img 
+{
+    height: 404px;
+    margin-left: 22px;
+    margin-top: 32px;
+    transition: transform .4s;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px 2px rgba(138, 137, 137, 0.582);
+
+} 
+.captions
+{
+    font-family: "Playwrite NO", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    transition: transform .4s;
+
+    margin-top: 2px;
+}
+.captions:hover
+{
+    transform: scale(1.1);
+
+}
+.third
+{
+
+    height: 665px;
+}
+.butt
+{
+    height: 49px;
+    border-radius: 20px;
+    margin-left: 82px;
+    margin-top: 297px;
+    width: 211px;
+    font-family: "Playwrite NO", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    transition: transform .4s;
+border: 1px solid rgba(205, 111, 111, 0.701)
+}
+.butt:hover
+{
+    transform: scale(1.1);
+background-color: rgba(209, 44, 44, 0.79);
+color: white;
+}
+
+.pix
+{
+    height: 500px;
+    transform: rotate(-32deg);
+    margin-top: 48px;
+    transition: transform .4s;
+    margin-left: 63px;
+
+}
+.pix:hover{
+    transform: scale(1.1);
+
+}
+
+h1 {
+    color: #e74c3c;
+}
+.gallery img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.music
+{
+    margin-left: 359px;
+    width: 602px;
+    height: 44px;
+    
+}
+.fourth
+{
+    background-color: rgb(180, 100, 100);
+}
